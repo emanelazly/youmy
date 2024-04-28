@@ -1,0 +1,65 @@
+:root {
+    --bg-white:#F5F5F5;
+    --bg-verywhite:#ebebeb;
+    
+}
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: var(--bg-white);
+}
+.youmy {
+    display: inline-block;
+    z-index: 99;
+}
+.youmy ul {
+    background-color: var(--bg-verywhite);
+    width: 250px;
+    height: 100vh !important;
+}
+.youmy ul li {
+    padding: 10px
+}
+.nav-footer{
+    margin-top: 200px;
+}
+
+
+.nav-extend {
+    width: 70px;
+    height: 100vh;
+}
+.nav-toggler{
+    height: 20px;
+}
+.nav-extend .nav-toggler {
+    font-size: 40px;
+}
+
+.main-card {
+    background-color: var(--bg-white);
+    border-radius: 10px;
+}
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.card-ovlay , .card-ovlay-categore {
+    background-color: rgba(255, 255, 255, 0.734);
+    transition: top 0.5s;
+    padding: 1rem;
+}
+
+.main-card:hover .card-ovlay  {
+    top: 0 !important;
+}
+
+.main-card:hover .card-ovlay-categore {
+    top: 0 !important;
+}
